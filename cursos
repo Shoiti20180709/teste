@@ -1,0 +1,142 @@
+ul.seta a{
+	color:#575756;
+	font-weight:400
+	}
+	
+ul.seta{
+	margin-left:16em;
+	margin-bottom:15px
+	}
+	
+ul.seta li{
+	list-style-position:inside;
+	list-style-image:url(http://reitoria.ifpr.edu.br/wp-content/uploads/2017/03/bullet.png);
+	line-height:1.5em;margin-bottom:10px
+	}
+	
+/*Destaque ao redor do curso*/
+.TITULO-CURSO{
+border-bottom: 0.05rem ridge lightgray;
+border-right: 0.05rem ridge lightgray;
+border-left: 0.05rem ridge lightgray;
+}
+/*Destaque ao redor do descricao do curso, localizado na pagina do curso de graduacao*/
+#DESCRICAO-CURSO{
+	border:0.05rem ridge lightgray;
+}
+/*Estilização dos titulos*/
+.TITULO-CURSO h2{
+ color: white;
+ margin-left: 10em;
+ padding: 8px 0% 6px 45px;
+ border-bottom: solid #8A0829;
+}
+
+#processos,#informacao {padding-bottom: 5px;}
+#design{padding-bottom:15px}
+#alimentos,#saude{padding-bottom: 30px;}
+#infraestrutura,#educacional,#industrial,#industrial-sub,#natureza-sub{padding-bottom: 60px;}
+
+#processos,#gestao,#industrial,,#industrial-sub,#infraestrutura,#saude,#design,#alimentos{
+	margin-bottom: 20px;
+}
+
+#licenciatura,#bacharelado,#tecnologia{
+	margin-bottom: -25px;
+}
+/*Imagem de fundo dos Cursos*/
+#bacharelado{
+	background:url(http://reitoria.ifpr.edu.br/wp-content/uploads/2017/08/cursos-bacharelado.png) no-repeat
+	}
+
+#tecnologia{
+	background:url(http://reitoria.ifpr.edu.br/wp-content/uploads/2017/08/cursos-tecnologia.png) no-repeat
+}
+
+#educacional,#licenciatura{
+	background:url(http://reitoria.ifpr.edu.br/wp-content/uploads/2017/08/cursos-licenciatura.png) no-repeat
+	}
+
+#informacao{
+	background:url(http://reitoria.ifpr.edu.br/wp-content/uploads/2014/11/informacao.jpg) no-repeat
+}
+
+#natureza,#natureza-sub{
+	background:url(http://reitoria.ifpr.edu.br/wp-content/uploads/2014/11/natureza.jpg) 0 -50px no-repeat
+	}
+
+#segurança{
+	background:url(http://reitoria.ifpr.edu.br/wp-content/uploads/2014/11/seguranca.jpg) no-repeat
+}
+
+#lazer{
+	background:url(http://reitoria.ifpr.edu.br/wp-content/uploads/2014/11/lazer.jpg) no-repeat
+	}
+
+#especialização{
+	background:url(http://reitoria.ifpr.edu.br/wp-content/uploads/2017/05/especializacao.jpg) no-repeat
+}
+
+#mestrado{
+	background:url(http://reitoria.ifpr.edu.br/wp-content/uploads/2017/04/mestrado.jpg) 0 -95px no-repeat
+	}
+
+#saude {
+ background:url(http://reitoria.ifpr.edu.br/wp-content/uploads/2014/11/saude.jpg) no-repeat;
+}
+#processos {
+ background:url(http://reitoria.ifpr.edu.br/wp-content/uploads/2014/11/processos.jpg) no-repeat;
+}
+#gestao {
+ background:url(http://reitoria.ifpr.edu.br/wp-content/uploads/2014/11/gestao.jpg) no-repeat
+}
+#infraestrutura {
+ background:url(http://reitoria.ifpr.edu.br/wp-content/uploads/2014/11/infraestrutura.jpg) no-repeat
+}
+#alimentos {
+ background:url(http://reitoria.ifpr.edu.br/wp-content/uploads/2014/11/alimentos.jpg) no-repeat
+}
+#design,#design-sub {
+ background:url(http://reitoria.ifpr.edu.br/wp-content/uploads/2014/11/design.jpg) no-repeat
+}
+#industrial,#industrial-sub {
+ background:url(http://reitoria.ifpr.edu.br/wp-content/uploads/2014/11/industrial.jpg) no-repeat
+}
+/*Icone dos Cursos*/
+
+#saude h2{
+	background:url(http://reitoria.ifpr.edu.br/wp-content/uploads/2014/11/icones.gif) -5px -7px no-repeat #BE1622;
+	}
+#processos h2{
+	background:url(http://reitoria.ifpr.edu.br/wp-content/uploads/2014/11/icones.gif) -5px -57px no-repeat #BE1622;
+	}
+#gestao h2{
+	background:url(http://reitoria.ifpr.edu.br/wp-content/uploads/2014/11/icones.gif) -5px -107px no-repeat #BE1622;
+	}
+#informacao h2{
+	background:url(http://reitoria.ifpr.edu.br/wp-content/uploads/2014/11/icones.gif) -5px -157px no-repeat #BE1622;
+	}
+#bacharelado h2,#educacional h2,#especialização h2,#licenciatura h2,#mestrado h2, #tecnologia h2{
+	background:url(http://reitoria.ifpr.edu.br/wp-content/uploads/2014/11/icones.gif) -5px -207px no-repeat #BE1622;
+	}
+#infraestrutura h2{
+	background:url(http://reitoria.ifpr.edu.br/wp-content/uploads/2014/11/icones.gif) -5px -257px no-repeat #BE1622;
+	}
+#alimentos h2{
+	background:url(http://reitoria.ifpr.edu.br/wp-content/uploads/2014/11/icones.gif) -5px -307px no-repeat #BE1622;
+	}
+#design h2,#design-sub h2{
+	background:url(http://reitoria.ifpr.edu.br/wp-content/uploads/2014/11/icones.gif) -5px -357px no-repeat #BE1622;
+	}
+#industrial h2{
+	background:url(http://reitoria.ifpr.edu.br/wp-content/uploads/2014/11/icones.gif) -5px -407px no-repeat #BE1622;
+	}
+#natureza h2,#natureza-sub h2{
+	background:url(http://reitoria.ifpr.edu.br/wp-content/uploads/2014/11/icones.gif) -5px -457px no-repeat #BE1622;
+	}
+#segurança h2{
+	background:url(http://reitoria.ifpr.edu.br/wp-content/uploads/2014/11/icones.gif) -5px -507px no-repeat #BE1622;
+	}
+#lazer h2{
+	background:url(http://reitoria.ifpr.edu.br/wp-content/uploads/2014/11/icones.gif) -5px -557px no-repeat #BE1622;
+	}
